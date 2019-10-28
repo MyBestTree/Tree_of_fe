@@ -33,7 +33,7 @@ export default function TabBar() {
 
     function renderTabBerItem() {  //? 渲染tabber列表函数
         return tabbarList.map(item => {
-            return  (<li ky={item.id}>
+            return  (<li key={item.id}>
                 <NavLink to={item.path}>
                     <div>
                         <i className={"fa " + item.className}></i>
