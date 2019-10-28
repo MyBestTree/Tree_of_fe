@@ -1,0 +1,18 @@
+#tabbar{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    ul{
+        display: flex;
+        justify-content:space-around;
+        li{
+            a{
+                
+                &.active{
+                    color:rgb(97,181,151)
+                }
+            }
+        }
+    }
+}
