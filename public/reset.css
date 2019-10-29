@@ -243,3 +243,6 @@ samp {
     word-break: break-all;
     white-space: pre;
 } */
+html,body,#root{
+    height: 100%;
+}
