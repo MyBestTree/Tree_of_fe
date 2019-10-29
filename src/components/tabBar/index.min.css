@@ -1,0 +1,1 @@
+#tabbar{position:fixed;bottom:0;right:0;left:0;text-align:center;height:0.5rem}#tabbar ul{display:flex;justify-content:space-around;height:100%}#tabbar ul li a{display:flex;flex-direction:column;justify-content:center;height:100%}#tabbar ul li a.active{color:#61b597}

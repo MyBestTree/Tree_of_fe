@@ -1,0 +1,248 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    user-select: none;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+body {
+    font: 14px "Microsoft YaHei", "Hiragino Sans GB", Helvetica;
+    background-color: #f8f8f8;
+}
+
+img {
+    border: 0;
+    /* å…¼å®¹é—®é¢˜ */
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+em,
+strong,
+b,
+address,
+samp {
+    font-style: normal;
+    font-size: normal;
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+    height: 0;
+    visibility: hidden;
+}
+
+.i-b {
+    display: inline-block;
+}
+
+.b {
+    display: block;
+}
+
+.i {
+    display: inline;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.noborder {
+    border: 0;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.indent {
+    text-indent: 2em;
+}
+
+.indent999 {
+    text-indent: 999px;
+    overflow: hidden;
+}
+
+.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.none {
+    display: none;
+}
+
+.b {
+    display: block;
+}
+
+.ib {
+    display: inline-block;
+}
+
+.borderbox {
+    box-sizing: border-box;
+}
+
+.contentbox {
+    box-sizing: content-box;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.show {
+    display: block;
+}
+
+
+/* p{
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: pre;
+} */
+html,body,#root{
+    height: 100%;
+}
