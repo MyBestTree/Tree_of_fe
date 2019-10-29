@@ -10,7 +10,7 @@ export default function TabBar() {
             text:'生态树',
             path:'/ecologicaltree'
         },
-        {   //* 古树名木
+        {   //* 古树名木..
             id:2,
             className:'fa-home',
             text:'古树名木',
