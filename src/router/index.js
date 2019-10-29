@@ -67,7 +67,7 @@ function RouterComp () {
         //* Redirect 是重定向组件  from 来源  to 目标     /  /home 
         // <BrowserRouter>
             <Switch>
-                <Redirect from="/" to="/adopttree" exact ></Redirect>
+                <Redirect from="/" to="/ecologicaltree" exact ></Redirect>
                 {renderRoutes()}
 
 
