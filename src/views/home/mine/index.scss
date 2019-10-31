@@ -1,0 +1,51 @@
+.mine-box{
+  display: flex;
+}
+.personal-box{
+  padding-top: .5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left:.15rem;
+  padding-right:.15rem;
+
+
+  .user-list a{
+    display: flex;
+    height: 100%;
+    span{
+      flex:35 ;
+    }
+    b{
+      flex:300 ;
+    }
+    i{
+      flex: 10;
+    }
+    span,b,i{
+      line-height: .5rem;
+    }
+  }
+
+  .user-box{
+    height: .95rem;
+    a{
+      display: flex;
+      height: 100%;
+      span{
+        flex:35 ;
+      }
+      b{
+        flex:300 ;
+      }
+      i{
+        flex: 10;
+      }
+      span,b,i{
+        line-height: .95rem;
+        font-size: 18px;
+      }
+    }
+
+  }
+}

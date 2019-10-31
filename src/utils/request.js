@@ -59,9 +59,9 @@ const request = ( {
                 break;
         }
 
-// // ! axios拦截 
-// //   * 1. 拦截用户无登录操作，用户不登录那么久无法进入项目
-// //   * 2. 常用的效果： Loading
+// ! axios拦截
+//   * 1. 拦截用户无登录操作，用户不登录那么久无法进入项目
+//   * 2. 常用的效果： Loading
 
         axios.interceptors.request.use( function ( config ) {
             Toast.loading( 'Loading...', 1, () => {
