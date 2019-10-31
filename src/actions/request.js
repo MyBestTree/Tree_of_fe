@@ -1,5 +1,5 @@
 import axios from 'axios'
-// import { Toast } from 'antd-mobile'
+import { Toast } from 'antd-mobile'
 
 // axios.defaults.baseURL = 'https://api.example.com';
 // axios.defaults.headers.common['Authorization'] = AUTH_TOKEN;
@@ -63,21 +63,21 @@ const request = ( {
 // //   * 1. 拦截用户无登录操作，用户不登录那么久无法进入项目
 // //   * 2. 常用的效果： Loading
 
-//         axios.interceptors.request.use( function ( config ) {
-//             Toast.loading( 'Loading...', 1, () => {
-//                 console.log( 'Load complete !!!' );
-//             } );
-//             return config;
-//         }, function ( error ) {
-//             return Promise.reject( error );
-//         } );
+        axios.interceptors.request.use( function ( config ) {
+            Toast.loading( 'Loading...', 1, () => {
+                console.log( 'Load complete !!!' );
+            } );
+            return config;
+        }, function ( error ) {
+            return Promise.reject( error );
+        } );
 
-//         axios.interceptors.response.use( function ( response ) {
-//             return response;
-//         }, function ( error ) {
-//             return Promise.reject( error );
-//         } );
-//     } )
-// }
+        axios.interceptors.response.use( function ( response ) {
+            return response;
+        }, function ( error ) {
+            return Promise.reject( error );
+        } );
+    } )
+}
 
 export default request

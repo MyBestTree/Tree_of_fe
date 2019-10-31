@@ -1,0 +1,117 @@
+.details{
+    
+  display: flex;
+  flex-direction: column;
+   
+    header{
+    position: relative;
+       top: rem;
+        .introduction{
+            background: whitesmoke;
+          display: flex;
+          justify-content: space-around;
+          border: 1px solid #a4a4a4;
+          width: 90%;
+          margin: 0.1rem auto;
+          border-radius: 0.05rem;
+          padding: 0.1rem 0 0.1rem 0;
+          .t{
+              font-size: 0.01rem;
+              padding: 0.05rem 0 0.05rem 0;
+              color: #a4a4a4;
+          }
+          .price{
+              color:red;
+              font-size: 0.2rem;
+              
+          }
+           
+        }
+        .tar{
+            display: flex;
+            border: 1px solid #ccc;
+            width: 90%;
+            margin: 0.1rem auto;
+            span{
+                display: block;
+                text-align: center;
+            }
+            p{
+                font-size: 0.1rem;
+                color: #a4a4a4;
+                padding: 5px;
+                line-height: 0.16rem;
+            }
+        }
+        .lis{
+            display: block;
+            text-align: center;
+            line-height: 0.16rem;
+            color: #a4a4a4;
+            font-size: 0.01rem
+        }
+      
+ }
+ .home-box{
+     height: 100%;
+    flex: 1,;
+    overflow:hidden;
+    .tab-content{
+        height: 100%;
+        .page{
+            height: 100%;
+            overflow: hidden;
+            .list-wrap{
+                .uls{
+                    padding: .1rem .15rem!important ;
+                    li{
+                        box-shadow: .01rem .01rem .05rem #ccc;
+                            margin-bottom: .1rem;
+                            padding: .04rem;
+                        a{
+                            display: flex;
+                            justify-content:space-between;
+                            .img-box{
+                                margin-right: .1rem;
+                                flex:70;
+                                img{
+                                    width:.6rem;
+                                    height: .9rem;
+                                }
+                            }
+                            .text-box{
+                                text-align: center;
+                                p{
+                                    font-size: 0.12rem;
+                                    line-height: 0.12rem;
+                                    margin: 0.1rem;
+                                }
+                            }
+                        }
+                        
+                           
+                           
+                        
+                        .btn-box{
+                            flex:50;
+                            align-self: center;
+                            margin-right: .1rem;
+                            .am-button {
+                                display: flex;
+                                justify-content:center;
+                                span{
+                                    font-size: .14rem!important;
+                                }
+                               
+            
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+ }
+    
+}

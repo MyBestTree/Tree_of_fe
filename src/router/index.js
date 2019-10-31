@@ -8,6 +8,7 @@ import Login from '../views/login';
 import Register from '../views/register';
 import Error from '../views/error';
 
+import Details from '../views/home/adopTree/details/index';
 
 function RouterComp () {
     const [ routes ] = useState( [
@@ -16,33 +17,38 @@ function RouterComp () {
             path: '/adopttree',
             component: AdoptTree
         },
+        {   //*特色认养详情
+            id:2,
+            path:'/details',
+            component:Details
+        },
         {  //* 生态树路由
-            id: 2,
+            id: 3,
             path: '/ecologicaltree',
             component: EcologicalTree
         },
         {  //* 古树名木
-            id: 3,
+            id: 4,
             path: '/famoustree',
             component: FamousTree
         },
         {  //* 我的
-            id: 4,
+            id: 5,
             path: '/mine',
             component: Mine
         },
         {  //* 登陆路由
-            id: 5,
+            id: 6,
             path: '/login',
             component: Login
         },
         {  //* 注册
-            id: 6,
+            id: 7,
             path: '/register',
             component: Register
         },
         {  //* 错误路由
-            id: 7,
+            id: 8,
             path: '',
             component: Error
         },
