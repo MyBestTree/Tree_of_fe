@@ -1,0 +1,85 @@
+#adopnav{
+width: 100%;
+height: .25rem;
+border-bottom: .01rem solid green;
+display: flex;
+font-size: .14rem;
+
+a{
+    padding: 0 .617rem;
+    &.active{
+        color: green;
+    }
+}
+}
+
+.yl{
+    height: .5rem;
+}
+
+//! 轮播图 样式
+.slider{
+    padding: .1rem;
+    height: 1.55rem;
+    .slider-frame{
+        border-radius: .10rem;
+    }
+}
+.hz-box{
+    display: none;
+}
+.RedList{
+    padding: .1rem;
+}
+.CultureBox{
+    width: 3.65rem;
+    margin: 0 auto;
+    display: flex;
+    padding: .1rem;
+    box-shadow:0 0 12px #c4c4c4;
+    .img-box{
+        width: .74rem;
+        width: .74rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        padding-left: .2rem;
+        font-size: .14rem;
+        .name{
+            padding-bottom: .05rem;
+            font-weight:900;
+        }
+        .synopsis{
+            color: #c4c4c4;
+            padding-bottom: .05rem;
+        }
+        .price{
+            color: #ff483e;
+            padding-bottom: .05rem;
+        }
+    }
+   .btn-box{
+        height: .3rem;
+        width: .7rem;
+        margin-left: 1rem;
+        margin-top: .15rem;
+        
+        .am-button{
+            height: 100%;
+            width: 100%;
+            line-height: .25rem;
+            background-color: #0fa87d;
+            span{
+                width: 100%;
+                height: 100%; 
+                font-size: .12rem;
+                color: #fff;
+            }
+        }
+   }
+}
