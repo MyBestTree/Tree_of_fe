@@ -5,7 +5,7 @@ import Layout from './layout';
 function App() {
   return (
     <div className="App">
-      <Layout></Layout>
+      <Layout>吴广10.29</Layout>
     </div>
   );
 }

@@ -6,7 +6,7 @@ const MovieItem = props => {
   return (
     <ul className='uls'>
     <li>
-      <a>
+      <a href="">
         <div className = 'img-box'>
           <img src ={ props.img.replace('w.h','128.180')}/>
         </div>

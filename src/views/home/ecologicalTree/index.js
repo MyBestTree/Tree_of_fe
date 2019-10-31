@@ -1,13 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
+import Banner from './Banner'
+import './index.scss'
+import TreeContainer from './tree'
+const EcologicalTree = props => {
 
+    return (
+        <div className="EcologicalTree-box">
+            <Banner></Banner>
+            <TreeContainer />
+        </div>
+    )
 
-export default class EcologicalTree extends Component {
-    render() {
-        return (
-            <div>
-                EcologicalTree
-               
-            </div>
-        )
-    }
 }
+export default EcologicalTree
