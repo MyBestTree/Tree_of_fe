@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
 import MovieList from './MovieList'
+
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import { getMovies } from '../actions'
-import '../views/home/adopTree/index.scss'
+
+
+import '../../adopTree/details/index.scss'
 import BScroll from 'better-scroll'
+import { getMovies } from './../../../../actions/index';
+
 class Home extends Component {
   
   componentDidMount() {

@@ -52,6 +52,7 @@
         }
       
  }
+
  .home-box{
      height: 100%;
     flex: 1,;
@@ -61,7 +62,7 @@
         .page{
             height: 100%;
             overflow: hidden;
-            .list-wrap{
+            
                 .uls{
                     padding: .1rem .15rem!important ;
                     li{
@@ -108,7 +109,7 @@
                         }
                     }
                 }
-            }
+          
         }
     }
     
