@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import MovieItem from './MovieItem'
-import '../views/home/adopTree/index.scss'
-import {Button} from 'antd-mobile'
+import '../../adopTree/details/index.scss'
+
 
 
 export default class MovieList extends Component {

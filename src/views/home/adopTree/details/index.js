@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './index.scss'
-import Home from '../../../../pages/Home'
+import Home from './Home'
 import Banner from './Banner'
 
 
@@ -34,6 +34,7 @@ export default class Datails extends Component {
                 </header>
                 <Home/>
             </div>
+            
             
             
             
