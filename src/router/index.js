@@ -7,7 +7,7 @@ import Mine from '../views/home/mine';
 import Login from '../views/login';
 import Register from '../views/register';
 import Error from '../views/error';
-
+import Confirm from '../views/home/ecologicalTree/order_form/confirm_order';
 
 function RouterComp () {
     const [ routes ] = useState( [
@@ -41,9 +41,14 @@ function RouterComp () {
             path: '/register',
             component: Register
         },
-        {  //* 错误路由
+        {  //* 订单
             id: 7,
-            path: '',
+            path: '/dingdan',
+            component: Confirm
+        },
+        {  //* 错误路由
+            id: 8,
+            path: '/',
             component: Error
         },
     ] )
